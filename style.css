@@ -17,6 +17,41 @@ body {
     padding: 0;
     line-height: 1;
 }
+.all{
+    padding: 50px;
+}
+.foto_estrelinhas{
+    display: flex;
+    width: 55px;   
+    height: 55px;
+
+}
+.menu__title{
+    
+
+}
+
+.nome-vector{
+    display: flex;
+    
+    
+}
+.menu__list{
+    display:flex;
+    padding: 10px;
+    gap: 15px;
+    
+}
+.title__profile{
+    width: 371px;   
+    height: 374px;
+}
+.title__network{
+    display: flex;
+    gap: 30px;
+    padding: 10px; 
+}
+
 ol, ul,li {
     list-style: none;
 }
@@ -41,7 +76,9 @@ https://en.bem.info/methodology/quick-start/*/
 /*Sessão Menu*/
 
 section.menu{
-
+    display: flex;
+    flex-direction:row ;
+    gap: 30px;
 }
 
 /*Sessão Title*/
@@ -55,11 +92,29 @@ section.title{
 section.about{
 
 }
+/*Classe exclusiva da foto Jiu-jitsu*/
+.foto_JJ{
+    width: 55px;   
+    height: 55px;
+
+}
+.skills__line{
+    display: flex;
+    flex-direction:row ;
+    gap: 30px;
+    
+}
+.hobbies__line{
+    display: flex;
+    flex-direction:row ;
+    gap: 30px;
+
+}
 
 /*Sessão Hobbies*/
 
 section.hobbies{
-    
+        
 }
 
 /* Experiência Acadêmica*/
