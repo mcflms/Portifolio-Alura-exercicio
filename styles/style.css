@@ -5,8 +5,9 @@ coloque nas sessões indicadas*/
 :root{
     /*Insira a variavel das outras cores inspecionando o modelo do figma*/
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
-   --cor-de-fundo: #FFFACD;
-   --cor-de-link: #000;
+   --cor-de-fundo:  #C0C0C0;
+   --cor-de-link:   #000;
+   --cor-do-footer: #4682B4;
 }   
 
 
@@ -16,11 +17,12 @@ body{
     margin: 0;
     padding: 0;
     line-height: 1;
-    background-color: #C0C0C0;   
+    background-color:var(--cor-de-fundo);   
     
 }
 .all{
-    padding: 50px;
+    padding: 50px 0px 0px 0px;
+    gap: 100px;
     background: url('../assets/htlm.png');
     background-repeat:repeat-x;
     position: relative;
@@ -42,15 +44,17 @@ body{
 }
 .nome-vector{
     display: flex;
-    
+    padding: 0px 0px 0px 20px;   
     
     
 }
 
 .menu__list{
     display:flex;    
-    padding: 7px;
-    gap: 30px;
+    padding:50px;
+    gap: 50px;
+    font-weight: bold; 
+
     
 }
 
@@ -70,6 +74,11 @@ body{
     display: flex;
     gap: 30px;
     padding: 10px; 
+    justify-content: center;
+    font-weight: bold;
+}
+.title__container{
+    padding: 0px 0px 0px 20px;
 }
 
 
@@ -80,6 +89,22 @@ a{
     text-decoration: none;
     color: var(--cor-de-link);
 }
+.footer{
+    display: flex;
+    justify-content: center;
+  
+    background-color: var(--cor-do-footer);
+    padding: 15px;    
+    font-family: 'montserrat',sans-serif;
+    font-size: 1rem;
+    font-weight: bold;    
+}
+.nome_footer{
+    justify-content: center; 
+
+    }
+
+
 
 /*Neste desafio, gostariamos que praticassem a metodologia BEM, caso seintam a vontade 
 de utiliza-la. 
@@ -109,10 +134,29 @@ section.title{
 }
 
 /*Sessão About*/
-
-section.about{
+.body_about{
+    padding: 20px 10px 20px 10px;
+    width: 100%;
+   
+  
 
 }
+
+.cabecalho_about{
+    background-color:aliceblue;
+    justify-content: space-between;
+    gap: 60px;
+   
+    
+}
+.cabecalho_menu{
+  
+    
+}
+
+
+
+
 /*Classe exclusiva da foto Jiu-jitsu*/
 .foto_JJ{
     width: 55px;   
@@ -130,6 +174,10 @@ section.about{
     flex-direction:row ;
     gap: 30px;
 
+}
+.cabecalho_about{
+   display: flex;
+   gap: 50px;
 }
 
 /*Sessão Hobbies*/
