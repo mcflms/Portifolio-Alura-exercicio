@@ -54,10 +54,8 @@ body{
     padding:50px;
     gap: 50px;
     font-weight: bold; 
-
     
 }
-
 
 
 .title__profile{
@@ -122,7 +120,8 @@ https://en.bem.info/methodology/quick-start/*/
 /*Sessão Menu*/
 
 section.menu{
-    display: flex;         
+    display: flex;
+    font-size: 16px;         
    
        
 }
@@ -136,32 +135,33 @@ section.title{
 /*Sessão About*/
 .body_about{
     padding: 20px 10px 20px 10px;
-    width: 100%;
-   
-  
-
+    width: 100%; 
+    gap: 30px;
 }
 
-.cabecalho_about{
-    background-color:aliceblue;
-    justify-content: space-between;
-    gap: 60px;
-   
+.menu_link{
     
-}
-.cabecalho_menu{
-  
-    
+    margin-right: 20px;
 }
 
 
-
-
-/*Classe exclusiva da foto Jiu-jitsu*/
-.foto_JJ{
+.apresentacao__imagem{
+    display: flex;    
     width: 55px;   
     height: 55px;
 
+}
+
+/*Sessão Skills*/
+.body_skills{
+    padding: 20px 10px 20px 10px;
+    width: 100%; 
+    gap: 30px;
+
+}
+.menu_link{
+    
+    margin-right: 20px;
 }
 .skills__line{
     display: flex;
@@ -169,39 +169,79 @@ section.title{
     gap: 30px;
     
 }
+
+/*Sessão Hobbies*/
+.body_hobbies{
+    padding: 20px 10px 20px 10px;
+    width: 100%; 
+    gap: 30px;
+}
+.menu_link{
+    
+    margin-right: 20px;
+}
+
 .hobbies__line{
     display: flex;
     flex-direction:row ;
     gap: 30px;
 
 }
-.cabecalho_about{
-   display: flex;
-   gap: 50px;
+.foto_JJ{
+    width: 55px;   
+    height: 55px;
+}
+.foto_bike{
+    width: 55px;   
+    height: 55px;
+   
 }
 
-/*Sessão Hobbies*/
-
-section.hobbies{
-        
-}
 
 /* Experiência Acadêmica*/
-
-section.academic{
-
+.body_formacao{
+    padding: 20px 10px 20px 10px;
+    width: 100%; 
+    gap: 30px;
+}
+.menu_link{
+    
+    margin-right: 20px;
 }
 
-/* experiência*/
 
-section.experience{
 
+
+
+/* Experiência Profissional*/
+
+.body_experiencia{
+    padding: 20px 10px 20px 10px;
+    width: 100%; 
+    gap: 30px;
+}
+.menu_link  {
+        
+    margin-right: 20px;
 }
 
 /*Contato*/
 
-section.formcontato{
-
+.body_contato{
+    padding: 20px 10px 20px 10px;
+    width: 100%; 
+    gap: 30px;
+}
+.menu_link{
+        
+    margin-right: 20px;
+    
+}
+.formcontato__img{
+    width: 320px;   
+    height: 320px;
+    
+   
 }
 
 /*footeer*/
