@@ -6,7 +6,7 @@ coloque nas sessões indicadas*/
     /*Insira a variavel das outras cores inspecionando o modelo do figma*/
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
    --cor-de-fundo:  #C0C0C0;
-   --cor-de-link:   #000;
+   --cor-de-link:   #000000;
    --cor-do-footer: #4682B4;
 }   
 
@@ -17,13 +17,18 @@ body{
     margin: 0;
     padding: 0;
     line-height: 1;
-    background-color:var(--cor-de-fundo);   
+    background-color: var(--cor-de-fundo);
+    
+}
+.main{
+    background: url('../assets/rrrrrr.PNG');
+    
     
 }
 .all{
     padding: 50px 0px 0px 0px;
     gap: 100px;
-    background: url('../assets/htlm.png');
+    background: url('../assets/js_icon.png');
     background-repeat:repeat-x;
     position: relative;
     
@@ -133,6 +138,9 @@ section.title{
 }
 
 /*Sessão About*/
+.apresentacao__conteudo__texto{
+    gap: 10px;
+}
 .body_about{
     padding: 20px 10px 20px 10px;
     width: 100%; 
@@ -143,13 +151,24 @@ section.title{
     
     margin-right: 20px;
 }
+.aprentação_foto{
+    padding: 0px;
+}
 
 
 .apresentacao__imagem{
     display: flex;    
-    width: 55px;   
-    height: 55px;
+    width: 200px;   
+    height: 150px;
+    
+   
 
+}
+.assinatura_imagem{
+    display: flex;    
+    width: 200px;   
+    height: 200px;
+    padding: 0px;
 }
 
 /*Sessão Skills*/
@@ -234,10 +253,14 @@ section.title{
     padding: 20px 10px 20px 10px;
     width: 100%; 
     gap: 30px;
+    
+     
 }
+
 .menu_link  {
         
     margin-right: 20px;
+    
 }
 
 /*Contato*/
