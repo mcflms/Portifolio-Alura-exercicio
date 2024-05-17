@@ -21,8 +21,10 @@ body{
     
 }
 .main{
-    background: url('../assets/rrrrrr.PNG');
-    
+    background: url('../assets/rrrrrr.PNG'); 
+      
+   
+    margin: auto;
     
 }
 .all{
@@ -236,7 +238,7 @@ section.title{
 .body_formacao{
     padding: 20px 10px 20px 10px;
     width: 100%; 
-    gap: 30px;
+   
 }
 .menu_link{
     
@@ -244,23 +246,16 @@ section.title{
 }
 
 
-
-
-
 /* Experiência Profissional*/
 
-.body_experiencia{
+.body_experiencia{    
     padding: 20px 10px 20px 10px;
-    width: 100%; 
-    gap: 30px;
+    width: 100%;   
     
-     
 }
+.menu__link_profissional{
 
-.menu_link  {
-        
     margin-right: 20px;
-    
 }
 
 /*Contato*/
@@ -268,16 +263,20 @@ section.title{
 .body_contato{
     padding: 20px 10px 20px 10px;
     width: 100%; 
-    gap: 30px;
+    gap: 20px;
+    
 }
-.menu_link{
-        
+.menu_link{        
+    
     margin-right: 20px;
+    gap: 30px;
     
 }
 .formcontato__img{
+    display: flex;
     width: 320px;   
     height: 320px;
+    gap: 20px;
     
    
 }
@@ -292,7 +291,11 @@ section.footer{
 utilize como referência os breakpoints @media abaixo*/
 
 /*Tablet*/
-@media (min-width: 768px) {
+@media ( min-width: 320px){
+.menu__list{
+   
+
+}
 
 /* Menu */
 
@@ -305,11 +308,12 @@ utilize como referência os breakpoints @media abaixo*/
 /*Experiências acadêmicas*/
 
 /*Expeirência profissional*/
-
 }
 
+
 /*Mobile*/
-@media (min-width: 425px) {
+@media  (min-width: 320px)
+ {
 
 /*Menu*/
 
