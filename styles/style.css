@@ -291,10 +291,18 @@ section.footer{
 utilize como referência os breakpoints @media abaixo*/
 
 /*Tablet*/
-@media ( min-width: 320px){
-.menu__list{
-   
+/*@media screen and( max-width: 768px){
+.main{
+    display: block;   
+    background-image: none;
+    
+}
+.container_imagem{
+    width: 50vw;
+}
 
+.container_caixa{
+    margin:2em 2em;
 }
 
 /* Menu */
@@ -308,14 +316,29 @@ utilize como referência os breakpoints @media abaixo*/
 /*Experiências acadêmicas*/
 
 /*Expeirência profissional*/
-}
 
 
 /*Mobile*/
-@media  (min-width: 320px)
- {
-
 /*Menu*/
+@media screen and( max-width: 768px){
+.main{
+    display: flex;   
+    background-image: none;
+    margin:2em 2em;
+    width: 100%;
+    padding: 1rem;
+   
+}
+.title__profile{
+    display: flex;
+    
+    
+        
+
+}
+
+
+
 
 /*Titulo*/
 
